@@ -24,5 +24,22 @@ namespace CS_Calculator
         {
             InitializeComponent();
         }
+
+        private void NumberButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Success!");
+        }
+        private void DecimalButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Success!");
+        }
+        private void OperatorButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Success!");
+        }
+        private void CalculateButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Success!");
+        }
     }
 }
