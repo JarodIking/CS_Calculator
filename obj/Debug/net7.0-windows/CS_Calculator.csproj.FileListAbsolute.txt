@@ -18,3 +18,5 @@ C:\gitClones\CS_Calculator\obj\Debug\net7.0-windows\refint\CS_Calculator.dll
 C:\gitClones\CS_Calculator\obj\Debug\net7.0-windows\CS_Calculator.pdb
 C:\gitClones\CS_Calculator\obj\Debug\net7.0-windows\CS_Calculator.genruntimeconfig.cache
 C:\gitClones\CS_Calculator\obj\Debug\net7.0-windows\ref\CS_Calculator.dll
+C:\gitClones\CS_Calculator\obj\Debug\net7.0-windows\Styles.baml
+C:\gitClones\CS_Calculator\obj\Debug\net7.0-windows\App.baml
