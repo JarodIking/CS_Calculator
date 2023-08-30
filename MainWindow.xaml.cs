@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data;
 
 namespace CS_Calculator
 {
@@ -20,26 +21,22 @@ namespace CS_Calculator
     /// </summary>
     public partial class MainWindow : Window
     {
+        Calculator calculator;
+        DataTable table = new DataTable();
         public MainWindow()
         {
             InitializeComponent();
+            calculator = new Calculator(DisplayTextBox, table);
         }
 
-        private void NumberButton_Click(object sender, RoutedEventArgs e)
+        private void UpdateInput(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Success!");
+            calculator.FillInput((sender as Button)?.Content?.ToString());
         }
-        private void DecimalButton_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Success!");
-        }
-        private void OperatorButton_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Success!");
-        }
+
         private void CalculateButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Success!");
+            calculator.calculate();
         }
     }
 }
