@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CS_Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="1000" Width="500">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -42,6 +42,7 @@
             <Button Content="2" Grid.Row="2" Grid.Column="1" Style="{StaticResource CalculatorButtonStyle}" Click="NumberButton_Click"/>
             <Button Content="3" Grid.Row="2" Grid.Column="2" Style="{StaticResource CalculatorButtonStyle}" Click="NumberButton_Click"/>
             <Button Content="0" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource CalculatorButtonStyle}" Click="NumberButton_Click"/>
+            <Button Content="." Grid.Row="3" Grid.Column="2" Style="{StaticResource CalculatorButtonStyle}" Click="DecimalButton_Click"/>
 
             <!-- Operator buttons -->
             <Button Content="+" Grid.Row="0" Grid.Column="3" Style="{StaticResource CalculatorButtonStyle}" Click="OperatorButton_Click"/>
