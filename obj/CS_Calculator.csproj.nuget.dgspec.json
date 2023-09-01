@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\gitClones\\CS_Calculator\\CS_Calculator.csproj": {}
+    "c:\\gitClones\\CS_Calculator\\CS_Calculator.csproj": {}
   },
   "projects": {
-    "C:\\gitClones\\CS_Calculator\\CS_Calculator.csproj": {
+    "c:\\gitClones\\CS_Calculator\\CS_Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\gitClones\\CS_Calculator\\CS_Calculator.csproj",
+        "projectUniqueName": "c:\\gitClones\\CS_Calculator\\CS_Calculator.csproj",
         "projectName": "CS_Calculator",
-        "projectPath": "C:\\gitClones\\CS_Calculator\\CS_Calculator.csproj",
+        "projectPath": "c:\\gitClones\\CS_Calculator\\CS_Calculator.csproj",
         "packagesPath": "C:\\Users\\jarod\\.nuget\\packages\\",
-        "outputPath": "C:\\gitClones\\CS_Calculator\\obj\\",
+        "outputPath": "c:\\gitClones\\CS_Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jarod\\AppData\\Roaming\\NuGet\\NuGet.Config"
